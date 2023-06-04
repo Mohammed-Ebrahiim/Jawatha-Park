@@ -1,0 +1,44 @@
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: auto;
+}
+
+.swiper-slide img {
+  display: block;
+  /* width: 100%; */
+}
+.h-90{
+  height: 80% !important;
+}
+.special-color{
+  background: rgb(255,211,89) !important;
+  background: linear-gradient(90deg, rgba(255,211,89,1) 0%, rgba(0,147,181,1) 50%, rgba(221,44,44,1) 100%) !important;
+}
+
+
+
+

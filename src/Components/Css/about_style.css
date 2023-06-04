@@ -1,0 +1,21 @@
+.about-us{
+  background-image: url("https://ucarecdn.com/88493c3b-d59c-472a-ac2c-13d743daaecd/about3.webp");
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+@media only screen and (max-width: 992px) {
+  .about-us{
+    background-image: none;
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+.about-us .card{
+  background-color: inherit;
+}
+.about-us .content{
+  margin-top: 10px !important;
+}
+
